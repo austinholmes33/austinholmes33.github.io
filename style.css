@@ -106,13 +106,15 @@ body {
 }
 
 .about-container {
-    width: 50%;
+    width: 45%;
     float: left;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .tech-icons {
 
-    width: 50%;
+    width: 45%;
     float: right;
 }
 
