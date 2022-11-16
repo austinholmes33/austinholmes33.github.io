@@ -1,6 +1,10 @@
+body {
+    font-family: 'Catamaran', sans-serif;
+}
+
 .navbar {
     display: flex;
-    background-color: black;
+    background-color: rgba (0, 0, 0, 0.2);
     position: fixed;
     width: 100%;
 }
@@ -38,6 +42,13 @@
     color: white;
 }
 
+.nav-link:hover {
+    color: aqua;
+    border: solid 1px aqua;
+    padding: 4px;
+    background-color: black;
+}
+
 #top {
     display: flex;
     align-items: center;
@@ -46,7 +57,7 @@
     width: 100%;
     overflow-y: hidden;
     overflow-x: hidden;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://images.unsplash.com/photo-1569597291935-39d007fceb90?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://images.unsplash.com/photo-1611591378657-5cc32671b3f2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=722&q=80);
     background-repeat: no-repeat;
     background-size: cover;
     image-rendering: optimizeQuality;
@@ -62,4 +73,19 @@
     padding: 15px;
     padding-left: 100px;
     padding-right: 100px;
+    margin-top: 600px;
+}
+
+#about {
+    background-color: rgb(63, 63, 63);
+    color: white;
+}
+
+#projects {
+    background-color: rgb(162, 162, 162);
+}
+
+#contact {
+    background-color: rgb(63, 63, 63);
+    color: white;
 }
