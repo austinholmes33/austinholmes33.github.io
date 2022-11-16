@@ -5,7 +5,7 @@
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    color: #66D8F2;
+    color: #002400;
     text-align: center;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://images.unsplash.com/photo-1569597291935-39d007fceb90?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDN8fHV0YWglMjBkZXNlcnQlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/pictures/unsplash/portfolio-background);
 }
