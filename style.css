@@ -3,9 +3,11 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/pictures/unsplash/portfolio-background);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/pictures/unsplash/portfolio-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     color: #002400;
     text-align: center;
 }
