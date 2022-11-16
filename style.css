@@ -106,15 +106,19 @@ body {
 }
 
 .about-container {
-    width: 45%;
+    width: 35%;
     float: left;
     display: flex;
     justify-content: flex-end;
 }
 
-.tech-icons {
+.bio-header {
+    text-align: center;
+}
 
-    width: 45%;
+.tech-icons {
+    text-align: center;
+    width: 50%;
     float: right;
 }
 
@@ -132,11 +136,27 @@ body {
 .project-body {
     background-color: rgb(63, 63, 63);
     width: 500px;
+    margin: 50px;
+    padding: 20px;
+}
+
+.project-body-header {
+    text-align: center;
+}
+
+.project-body-text {
+    padding: 10px;
+}
+
+.project-framework {
+    padding: 10px;
 }
 
 .project-link {
     text-decoration: none;
     color: white;
+    padding: 10px;
+    text-decoration: underline;
 }
 
 .project-link:hover {
