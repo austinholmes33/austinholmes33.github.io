@@ -100,26 +100,46 @@ body {
 }
 
 #about {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
     background-color: rgb(63, 63, 63);
     color: white;
+    height: 500px;
 }
 
 .about-container {
-    grid-column: 1;
-    grid-row: 1 / 5;
+    width: 50%;
+    float: left;
 }
 
 .tech-icons {
-    grid-column: 2;
-    grid-row: 1 / 5;
+    width: 50%;
+    float: right;
 }
 
 #projects {
     background-color: rgb(162, 162, 162);
+    color: white;
+}
+
+.projects-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.project-body {
+    background-color: rgb(63, 63, 63);
+    width: 500px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: white;
+}
+
+.project-link:hover {
+    color: aqua;
+    border: solid 1px aqua;
+    background-color: black;
 }
 
 #contact {
