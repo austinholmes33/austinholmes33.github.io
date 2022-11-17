@@ -149,9 +149,48 @@ body {
 .icon {
     padding: 50px;
     height: 100px;
+    margin-bottom: 50px;
     width: 125px;
     font-size: larger;
 }
+
+.devicon-python-plain {
+    font-size: 7rem;
+}
+
+.devicon-javascript-plain {
+    font-size: 7rem;
+}
+
+.devicon-nodejs-plain {
+    font-size: 7rem;
+}
+
+.devicon-postgresql-plain {
+    font-size: 7rem;
+}
+
+.devicon-heroku-original {
+    font-size: 7rem;
+}
+
+.devicon-express-original {
+    font-size: 7rem;
+}
+
+.devicon-github-original {
+    font-size: 7rem;
+}
+
+.devicon-html5-plain {
+    font-size: 7rem;
+}
+
+.devicon-css3-plain {
+    font-size: 7rem;
+}
+
+
 
 #projects {
     background-color: rgb(144, 144, 144);
