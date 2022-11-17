@@ -108,6 +108,7 @@ body {
     padding-right: 100px;
 }
 
+
                     /* about section */
 
 #about {
@@ -140,6 +141,7 @@ body {
 
 .bio-header {
     text-align: center;
+    padding-bottom: 25px;
 }
 
                     /* my skills section */
@@ -153,7 +155,10 @@ body {
 .skills {
     text-align: center;
     width: 100%;
+    font-size: x-large;
 }
+
+
 .tech-icons {
     text-align: center;
     display: flex;
@@ -209,7 +214,7 @@ body {
                         /* Projects section */
 
 #projects {
-    background-color: rgb(144, 144, 144);
+    background-color: rgb(63, 63, 63);
     color: white;
     padding: 50px;
     font-size: larger;
@@ -219,6 +224,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
+    padding-bottom: 25px;
 }
 
 .f30-capstone-photo {
@@ -232,7 +238,7 @@ body {
     justify-content: center;
 }
 .project-body {
-    background-color: rgb(63, 63, 63);
+    background-color: rgb(113, 113, 113);
     width: 500px;
     padding: 20px;
 }
@@ -267,7 +273,7 @@ body {
 #contact {
     display: flex;
     justify-content: center;
-    background-color: rgb(144, 144, 144);
+    background-color: rgb(63, 63, 63);
     color: white;
     text-align: center;
     padding: 50px;
@@ -278,6 +284,7 @@ body {
     display: flex;
     text-align: center;
     justify-content: center;
+    padding-bottom: 25px;
 }
 
 #footer {
@@ -296,23 +303,22 @@ body {
     padding-top: 10px;
 }
 
-.devicon-github-original {
+.devicon-github-original-wordmark {
     font-size: 2rem;
     padding-right: 10px;
     padding-top: 10px;
     color: white;
 }
 
-.devicon-github-original:hover {
-
+.devicon-github-original-wordmark:hover {
+    color: greenyellow;
 }
 
 .devicon-linkedin-plain {
     font-size: 2rem;
-    padding-top: 10px;
     color: white;
 }
 
 .devicon-linkedin-plain:hover {
-    color: darkolivegreen;
+    color: greenyellow;
 }
