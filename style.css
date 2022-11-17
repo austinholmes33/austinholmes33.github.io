@@ -1,7 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Catamaran', sans-serif;
 }
 
+                    /* header */
 .navbar {
     display: flex;
     background-color: rgba (0, 0, 0, 0.2);
@@ -36,9 +42,8 @@ body {
 }
 
 .header-link:hover {
-    color: aqua;
-    border: solid 1px aqua;
-    padding: 4px;
+    color: orange;
+    border: solid 1px orange;
     background-color: black;
 }
 
@@ -52,8 +57,7 @@ body {
 
 .nav-item {
     display: flex;
-    padding: 6px;
-    margin-right: 25px;
+
     justify-content: space-between;
     list-style: none;
 }
@@ -61,16 +65,20 @@ body {
 .nav-link {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     text-decoration: none;
     color: white;
+    padding: 10px;
+    margin-right: 25px;
 }
 
 .nav-link:hover {
-    color: aqua;
-    border: solid 1px aqua;
-    padding: 1px;
+    color: orange;
+    border: solid 1px orange;
     background-color: black;
 }
+
+                    /* top section */
 
 #top {
     display: flex;
@@ -98,10 +106,13 @@ body {
     padding-right: 100px;
 }
 
+                    /* about section */
+
 #about {
     background-color: rgb(63, 63, 63);
     color: white;
     height: 500px;
+    padding: 50px;
 }
 
 .about-container {
@@ -129,9 +140,12 @@ body {
     text-align: center;
 }
 
+                    /* my skills section */
+
 #my-skills {
     background-color: rgb(63, 63, 63);
     color: white;
+    padding: 50px;
 }
 
 .skills {
@@ -190,11 +204,12 @@ body {
     font-size: 7rem;
 }
 
-
+                        /* Projects section */
 
 #projects {
     background-color: rgb(144, 144, 144);
     color: white;
+    padding: 50px;
 }
 
 .projects-header {
@@ -206,7 +221,6 @@ body {
 .project-body {
     background-color: rgb(63, 63, 63);
     width: 500px;
-    margin: 50px;
     padding: 20px;
 }
 
@@ -230,18 +244,20 @@ body {
 }
 
 .project-link:hover {
-    color: aqua;
-    border: solid 1px aqua;
+    color: orange;
+    border: solid 1px orange;
     background-color: black;
 }
+
+                    /* contact section */
 
 #contact {
     display: flex;
     justify-content: center;
     background-color: rgb(144, 144, 144);
     color: white;
-    margin: 10px;
     text-align: center;
+    padding: 50px;
 }
 
 .contact-header {
