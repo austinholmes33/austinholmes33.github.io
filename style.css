@@ -42,8 +42,8 @@ body {
 }
 
 .header-link:hover {
-    color: orange;
-    border: solid 1px orange;
+    color: white;
+    border: solid 1px darkolivegreen;
     background-color: black;
 }
 
@@ -88,7 +88,7 @@ body {
     width: 100%;
     overflow-y: hidden;
     overflow-x: hidden;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://images.unsplash.com/photo-1546562829-36bdb1fefb48?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://images.unsplash.com/photo-1513336484130-80d71af9596c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80);
     background-repeat: no-repeat;
     background-size: cover;
     image-rendering: optimizeQuality;
@@ -244,8 +244,8 @@ body {
 }
 
 .project-link:hover {
-    color: orange;
-    border: solid 1px orange;
+    color: darkgreen;
+    border: solid 1px darkolivegreen;
     background-color: black;
 }
 
