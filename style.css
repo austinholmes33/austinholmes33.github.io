@@ -15,7 +15,9 @@ body {
     width: 100%;
 }
 
-.header-name {
+.logo {
+    height: 100px;
+    width: 175px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -73,8 +75,8 @@ body {
 }
 
 .nav-link:hover {
-    color: orange;
-    border: solid 1px orange;
+    color: white;
+    border: solid 1px darkolivegreen;
     background-color: black;
 }
 
@@ -117,12 +119,13 @@ body {
 
 .about-container {
     display: flex;
-    margin-left: 25%;
+    justify-content: center;
+    padding: 25px;
+    width: 100%;
 }
 
 .photo {
-    width: 50%;
-    float: left;
+    padding-right: 25px;
 }
 
 .about-photo {
@@ -132,8 +135,7 @@ body {
 }
 
 .bio {
-    width: 50%;
-    float: right;
+    padding-left: 25px;
 }
 
 .bio-header {
@@ -210,6 +212,7 @@ body {
     background-color: rgb(144, 144, 144);
     color: white;
     padding: 50px;
+    font-size: larger;
 }
 
 .projects-header {
@@ -218,6 +221,16 @@ body {
     justify-content: center;
 }
 
+.f30-capstone-photo {
+    height: 400px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.project-card {
+    display: flex;
+    justify-content: center;
+}
 .project-body {
     background-color: rgb(63, 63, 63);
     width: 500px;
@@ -244,7 +257,7 @@ body {
 }
 
 .project-link:hover {
-    color: darkgreen;
+    color: white;
     border: solid 1px darkolivegreen;
     background-color: black;
 }
@@ -258,10 +271,48 @@ body {
     color: white;
     text-align: center;
     padding: 50px;
+    font-size: larger;
 }
 
 .contact-header {
     display: flex;
     text-align: center;
     justify-content: center;
+}
+
+#footer {
+    background-color: black;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.footer-text {
+    color: white;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.devicon-github-original {
+    font-size: 2rem;
+    padding-right: 10px;
+    padding-top: 10px;
+    color: white;
+}
+
+.devicon-github-original:hover {
+
+}
+
+.devicon-linkedin-plain {
+    font-size: 2rem;
+    padding-top: 10px;
+    color: white;
+}
+
+.devicon-linkedin-plain:hover {
+    color: darkolivegreen;
 }
