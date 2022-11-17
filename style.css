@@ -105,10 +105,24 @@ body {
 }
 
 .about-container {
-    width: 35%;
-    float: left;
     display: flex;
-    justify-content: flex-end;
+    margin-left: 25%;
+}
+
+.photo {
+    width: 50%;
+    float: left;
+}
+
+.about-photo {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+}
+
+.bio {
+    width: 50%;
+    float: right;
 }
 
 .bio-header {
@@ -117,11 +131,26 @@ body {
 
 #my-skills {
     background-color: rgb(63, 63, 63);
-
+    color: white;
 }
 
+.skills {
+    text-align: center;
+    width: 100%;
+}
 .tech-icons {
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.icon {
+    padding: 50px;
+    height: 100px;
+    width: 125px;
+    font-size: larger;
 }
 
 #projects {
