@@ -144,7 +144,7 @@ body {
     padding-bottom: 25px;
 }
 
-                    /* my skills section */
+                    /* MY SKILLS SECTION */
 
 #my-skills {
     background-color: rgb(63, 63, 63);
@@ -176,6 +176,10 @@ body {
 }
 
 .devicon-python-plain {
+    font-size: 7rem;
+}
+
+.devicon-flask-original {
     font-size: 7rem;
 }
 
