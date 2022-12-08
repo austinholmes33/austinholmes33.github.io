@@ -162,7 +162,7 @@ body {
 .tech-icons {
     text-align: center;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     width: 100%;
 }
