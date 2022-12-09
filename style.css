@@ -168,6 +168,9 @@ body {
 }
 
 .icon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     padding: 50px;
     height: 100px;
     margin-bottom: 50px;
@@ -183,9 +186,17 @@ body {
     font-size: 7rem;
 }
 
-/* .devicon-sqlalchemy-plain {
+.devicon-sqlalchemy-plain {
     font-size: 7rem;
-} */
+} 
+
+.devicon-bootstrap-plain {
+    font-size: 7rem;
+} 
+
+.devicon-sqlite-plain {
+    font-size: 7rem;
+} 
 
 .devicon-javascript-plain {
     font-size: 7rem;
