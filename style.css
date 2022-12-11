@@ -133,10 +133,18 @@ body {
     height: 400px;
     width: 400px;
     object-fit: cover;
+    border: solid black 1px;
 }
 
 .bio {
     padding-left: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.bio-text {
+    width: 250px;
+
 }
 
 .bio-header {
