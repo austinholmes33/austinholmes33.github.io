@@ -140,12 +140,9 @@ body {
     padding-left: 25px;
     display: flex;
     align-items: center;
-}
-
-.bio-text {
     width: 250px;
-
 }
+
 
 .bio-header {
     text-align: center;
