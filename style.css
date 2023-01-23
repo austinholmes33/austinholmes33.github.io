@@ -251,6 +251,11 @@ body {
     padding-bottom: 25px;
 }
 
+.projects-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .f30-capstone-photo {
     height: 400px;
     width: 100%;
@@ -269,6 +274,8 @@ body {
 
 .project-body-header {
     text-align: center;
+    font-size: 1.3em;
+    font-weight: 700;
 }
 
 .project-body-text {
