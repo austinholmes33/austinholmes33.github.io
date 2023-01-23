@@ -149,6 +149,10 @@ body {
     padding-bottom: 25px;
 }
 
+.bio-text {
+    font-size: 1.2em;
+}
+
                     /* MY SKILLS SECTION */
 
 #my-skills {
@@ -254,6 +258,8 @@ body {
 .projects-container {
     display: flex;
     justify-content: space-evenly;
+    margin-left: 400px;
+    margin-right: 400px;
 }
 
 .f30-capstone-photo {
