@@ -248,7 +248,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    padding-bottom: 25px;
+    padding-bottom: 50px;
 }
 
 .projects-container {
@@ -265,9 +265,11 @@ body {
 .project-card {
     display: flex;
     justify-content: center;
+    height: 900px;
 }
 .project-body {
     background-color: rgb(113, 113, 113);
+    border-radius: 15px;
     width: 500px;
     padding: 20px;
 }
@@ -280,17 +282,22 @@ body {
 
 .project-body-text {
     padding: 10px;
+    text-align: center;
 }
 
 .project-framework {
     padding: 10px;
+    text-align: center;
 }
 
 .project-link {
+    display: flex;
+    justify-content: center;
     text-decoration: none;
     color: white;
     padding: 10px;
     text-decoration: underline;
+
 }
 
 .project-link:hover {
