@@ -262,6 +262,12 @@ body {
     margin-right: 400px;
 }
 
+.foundations-capstone-photo {
+    height: 400px;
+    width: 100%;
+    object-fit: contain;
+}
+
 .f30-capstone-photo {
     height: 400px;
     width: 100%;
